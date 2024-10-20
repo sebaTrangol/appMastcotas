@@ -74,6 +74,9 @@ dependencies {
 
     implementation("com.google.code.gson:gson:2.8.9")
 
+    implementation("com.google.android.material:material:1.9.0")
+
+    implementation("com.airbnb.android:lottie:6.0.0")
 
     // Dependencias para pruebas
     testImplementation("junit:junit:4.13.2")

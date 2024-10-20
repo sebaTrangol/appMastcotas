@@ -58,6 +58,17 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ListaMascotasActivity.class);
             startActivity(intent);
         });
+
+        // Referencia al botón Registrar Mascotas
+        Button registrarButton = findViewById(R.id.btn_registro);
+
+        // Configurar la acción del botón
+        registrarButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, RegistrarMascotasActivity.class);
+            startActivity(intent);
+        });
+
+
     }
 
     // Clase AsyncTask para insertar animalitos en la base de datos
